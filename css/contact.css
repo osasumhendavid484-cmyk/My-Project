@@ -1,0 +1,321 @@
+```css
+/* =========================
+   GENERAL
+========================= */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #faf7fc;
+  color: #333;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand img {
+  max-width: 180px;
+}
+
+.nav-item {
+  transition: 0.3s ease;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #800080;
+}
+
+#home {
+  border-bottom: 2px solid #800080;
+}
+
+.nav-link:hover {
+  color: #800080 !important;
+}
+
+
+/* =========================
+   BOOK NOW BUTTON
+========================= */
+
+#btn {
+  background-color: #800080;
+  color: #fff;
+  border: 1px solid #800080;
+}
+
+#btn:hover {
+  background-color: #5f005f;
+  color: #fff;
+}
+
+
+/* =========================
+   CONTACT BANNER
+========================= */
+
+.contact-banner {
+  background-color: #800080;
+  padding: 80px 20px;
+  color: white;
+}
+
+.contact-banner h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-banner p {
+  font-size: 17px;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section {
+  background-color: #faf7fc;
+}
+
+
+/* =========================
+   CONTACT INFORMATION
+========================= */
+
+.contact-info {
+  background-color: #3b174d;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-info > p {
+  color: #eeeeee;
+  line-height: 1.8;
+  margin-bottom: 35px;
+}
+
+
+/* =========================
+   CONTACT ITEMS
+========================= */
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.contact-icon {
+  min-width: 45px;
+  height: 45px;
+
+  background-color: #800080;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+}
+
+.contact-item h5 {
+  margin: 0 0 5px;
+  font-weight: 600;
+}
+
+.contact-item p {
+  margin: 0;
+  color: #dddddd;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   SOCIAL LINKS
+========================= */
+
+.social-links {
+  margin-top: 35px;
+  display: flex;
+  gap: 12px;
+}
+
+.social-links a {
+  width: 40px;
+  height: 40px;
+
+  background-color: #800080;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: white;
+  color: #800080;
+  transform: translateY(-3px);
+}
+
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form h2 {
+  color: #3b174d;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+/* Labels */
+
+.form-label {
+  color: #3b174d;
+  font-weight: 600;
+}
+
+
+/* Inputs */
+
+.form-control,
+.form-select {
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 12px 15px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #800080;
+  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.15);
+}
+
+
+/* =========================
+   SEND BUTTON
+========================= */
+
+#send-btn {
+  background-color: #800080;
+  color: white;
+
+  padding: 13px 30px;
+
+  border-radius: 30px;
+
+  font-weight: 600;
+
+  border: none;
+
+  transition: 0.3s ease;
+}
+
+#send-btn:hover {
+  background-color: #5f005f;
+  color: white;
+  transform: translateY(-2px);
+}
+
+
+/* =========================
+   MAP
+========================= */
+
+.map-section {
+  background-color: #faf7fc;
+}
+
+.map-section h2 {
+  color: #3b174d;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.map-section p {
+  color: #666;
+}
+
+.map-container {
+  overflow: hidden;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  display: block;
+}
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+  .contact-banner {
+    padding: 60px 20px;
+  }
+
+  .contact-banner h1 {
+    font-size: 35px;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 30px 20px;
+  }
+
+  .contact-info h2,
+  .contact-form h2 {
+    font-size: 26px;
+  }
+
+  .map-container iframe {
+    height: 350px;
+  }
+
+}
+

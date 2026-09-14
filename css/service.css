@@ -1,0 +1,34 @@
+.c-item {
+  height: 450px;
+  border-radius: 0 0 50% 50% / 0 0 15% 15%;
+  overflow: hidden;
+}
+.c-img{
+    height: 70%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    object-position: center 25%;
+    text-align: left;
+}
+.chai-image{
+    height: 500px;
+    object-fit: cover;
+    object-position: center 25%;
+}
+.overview{
+    height: 180px;
+    background-color: blueviolet;
+}
+
+#btn{
+    background-color: #800080;
+    color: #fff;
+}
+
+#service{
+    border-bottom: 2px solid #800080;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #800080; 
+}
