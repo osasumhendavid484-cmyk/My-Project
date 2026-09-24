@@ -1,15 +1,13 @@
-```css
-/* =========================
-   GENERAL
-========================= */
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #faf7fc;
-  color: #333;
+.c-item{
+    height: 300px;
 }
-
+.c-img{
+    height: 95%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    text-align: left;
+    
+}
 
 /* =========================
    NAVBAR
@@ -317,5 +315,71 @@ body {
     height: 350px;
   }
 
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 150px;
+  }
+
+  .contact-banner h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .c-item {
+    height: 360px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+
+  #send-btn,
+  #btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 150px;
+  }
+
+  .contact-banner h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .c-item {
+    height: 360px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+
+  #send-btn,
+  #btn {
+    width: 100%;
+  }
 }
 

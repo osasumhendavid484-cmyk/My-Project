@@ -1,19 +1,13 @@
-.c-item {
-  height: 450px;
-  border-radius: 0 0 50% 50% / 0 0 15% 15%;
-  overflow: hidden;
+.c-item{
+    height: 300px;
 }
 .c-img{
-    height: 70%;
+    height: 95%;
     object-fit: cover;
     filter: brightness(0.6);
-    object-position: center 25%;
     text-align: left;
-}
-.chai-image{
-    height: 500px;
-    object-fit: cover;
-    object-position: center 25%;
+    
+
 }
 .overview{
     height: 180px;
@@ -31,4 +25,77 @@
 
 .nav-item:hover{
     border-bottom: 2px solid #800080; 
+}
+
+.card {
+    border: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(76, 30, 78, 0.08);
+}
+
+.card-img-top {
+    height: 240px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.3rem;
+}
+
+.card-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #3b174d;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand img {
+    max-width: 180px;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 150px;
+  }
+
+  .card-img-top {
+    height: 220px;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .c-item {
+    height: 380px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-body .btn {
+    width: 100%;
+  }
 }

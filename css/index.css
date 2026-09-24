@@ -181,6 +181,60 @@
   }
 }
 
+@media (max-width: 991px) {
+  .navbar-brand img {
+    max-width: 150px;
+  }
+
+  .carousel-caption {
+    padding: 0 20px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .c-item {
+    height: 420px;
+  }
+
+  .carousel-caption {
+    top: 52% !important;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+
+  .btn-spa {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .service-card {
+    height: 260px;
+  }
+
+  .service-content {
+    padding: 18px;
+  }
+
+  .service-content h2 {
+    font-size: 18px;
+  }
+}
+
    /* ABOUT SECTION */
 
 

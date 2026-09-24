@@ -1,12 +1,15 @@
 .c-item{
-    height: 480px;
+    height: 300px;
 }
 .c-img{
     height: 95%;
     object-fit: cover;
     filter: brightness(0.6);
     text-align: left;
+    
+
 }
+
 .overview{
     height: 180px;
     background-color: blueviolet;
@@ -190,6 +193,47 @@
 
   .about-content p {
     font-size: 15px;
+  }
+
+  .our-story {
+    padding: 60px 15px;
+  }
+
+  .our-story h2 {
+    font-size: 30px;
+  }
+
+  .our-story p {
+    font-size: 15px;
+  }
+
+  .our-story img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .service-card {
+    height: 260px;
+  }
+
+  .service-content h2 {
+    font-size: 18px;
+  }
+
+  .service-content p {
+    font-size: 13px;
+  }
+
+  .navbar-brand img {
+    max-width: 130px;
+  }
+
+  .c-item {
+    height: 360px;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2rem;
   }
 }
 /* Our Story */
