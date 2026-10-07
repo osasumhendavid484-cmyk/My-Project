@@ -1,0 +1,39 @@
+
+
+/* Book Now Section */
+#book-now {
+  background-color: #f8f5f8;
+}
+
+#book-now h2 {
+  color: #800080;
+}
+
+.book-btn {
+  background-color: #800080;
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #660066;
+  color: white;
+  transform: translateY(-2px);
+}
+
+#book-now .form-control,
+#book-now .form-select {
+  padding: 12px;
+  border-radius: 8px;
+}
+
+#book-now .form-control:focus,
+#book-now .form-select:focus {
+  border-color: #800080;
+  box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.15);
+}
+
+#book-now .card {
+  background-color: white;
+}
